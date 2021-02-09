@@ -11,7 +11,7 @@
 	<name>atomos.examples.gogo</name>
 
 	<properties>
-		<atomos.version>0.0.1-SNAPSHOT</atomos.version>
+		<atomos.version>1.0.0-SNAPSHOT</atomos.version>
 	</properties>
 
 	<repositories>
@@ -30,7 +30,7 @@
 			<dependency>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>org.apache.felix.gogo.bom</artifactId>
-				<version>1.0.2</version>
+				<version>1.0.4</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -40,7 +40,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.felix</groupId>
-			<artifactId>org.apache.felix.atomos.runtime</artifactId>
+			<artifactId>org.apache.felix.atomos</artifactId>
 			<version>${atomos.version}</version>
 		</dependency>
 		<dependency>
@@ -69,7 +69,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>2.2.5.RELEASE</version>
 				<configuration>
-					<mainClass>org.apache.felix.atomos.launch.AtomosLauncher</mainClass>
+					<mainClass>org.apache.felix.atomos.Atomos</mainClass>
 				</configuration>
 				<executions>
 					<execution>
