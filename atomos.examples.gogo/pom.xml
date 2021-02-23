@@ -11,19 +11,8 @@
 	<name>atomos.examples.gogo</name>
 
 	<properties>
-		<atomos.version>1.0.0-SNAPSHOT</atomos.version>
+		<atomos.version>1.0.0</atomos.version>
 	</properties>
-
-	<repositories>
-		<repository>
-			<id>apache-snapshots</id>
-			<url>https://repository.apache.org/snapshots</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
 
 	<dependencyManagement>
 		<dependencies>
